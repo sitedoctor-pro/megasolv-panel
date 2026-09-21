@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "MEGASOLV Admin",
+  "short_name": "MEGASOLV",
+  "description": "Tableau de bord MEGASOLV pour analytics, commandes et avis.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#F3F4F6",
+  "theme_color": "#08090A",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {"src":"assets/pwa/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"assets/pwa/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"assets/pwa/maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"assets/pwa/maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Analytics","short_name":"Analytics","url":"./index.html","icons":[{"src":"assets/pwa/icon-192.png","sizes":"192x192"}]},
+    {"name":"Commandes","short_name":"Commandes","url":"./orders.html","icons":[{"src":"assets/pwa/icon-192.png","sizes":"192x192"}]},
+    {"name":"Avis","short_name":"Avis","url":"./reviews.html","icons":[{"src":"assets/pwa/icon-192.png","sizes":"192x192"}]}
+  ]
+}
